@@ -1,3 +1,8 @@
+import "./style.css";
+import React from 'react';
+import placeholder from './placeholder.png';
+
+
 function Header(){
     return (
 
@@ -5,12 +10,12 @@ function Header(){
   <div class="profileLogo"> 
 
     <p class="logoPlaceholder">
-        <img src="logoImage.png" alt="sample logo"><span>LOGO</span></img>
+        <img src={placeholder} alt="sample logo"></img>
     </p>
   </div>
   <div class="profilePhoto"> 
 
-    <img src="../AboutPageAssets/images/profilephoto.png" alt="sample"></img>
+    <img src={placeholder} alt="sample"></img>
     </div>
 
   <div class="profileHeader">
@@ -23,19 +28,19 @@ function Header(){
   <aside class="socialNetworkNavBar">
     <div class="socialNetworkNav"> 
 
-      <img src="../AboutPageAssets/images/social.png" alt="sample"></img>
+      <img src={placeholder} alt="sample"></img>
       </div>
     <div class="socialNetworkNav"> 
 
-      <img src="../AboutPageAssets/images/social.png"  alt="sample"> </img>
+      <img src={placeholder}  alt="sample"></img>
       </div>
     <div class="socialNetworkNav"> 
 
-      <img src="../AboutPageAssets/images/social.png"  alt="sample"> </img>
+      <img src={placeholder}  alt="sample"></img>
       </div>
     <div class="socialNetworkNav"> 
 
-      <img src="../AboutPageAssets/images/social.png"  alt="sample"> </img>
+      <img src={placeholder}  alt="sample"></img>
       </div>
   </aside>
 </header>

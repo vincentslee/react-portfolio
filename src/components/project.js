@@ -1,32 +1,43 @@
+import "./style.css";
+import React from 'react';
+
 function Project(){
     return (
         <div class="mainContent"> 
+        <h1>Vincent Lee</h1>
 
             <div class="div1">
-                <h2 class="divTitle">Content Holder 1</h2>
+                <h2 class="divTitle">Contact</h2>
 
                 <div class="div1Content">
-                <p><span>Email :</span> johndoe@email.com</p>
-                <p><span>Website :</span> johndoe.com</p>
-                <p><span>Phone :</span> (123)456 - 789000</p>
-                <p><span>Address :</span> Anytown, Anycountry</p>
+                <p><span>Email :</span> 911vincentlee@gmail.com</p>
+                <p><span>GitHub :</span> <a href="https://github.com/vincentslee">github.com/vincentslee</a></p>
+                <p><span>LinkedIn :</span> <a href="https://linkedin.com/in/vincent-lee-4aabb01b0">linkedin.com/in/vincent-lee</a></p>
+                <p><span>Phone :</span> (555)-555-5555</p>
                 </div>
             </div>
 
             <div class="div2">
-                <h2 class="divTitle">Content Holder 2</h2>
+                <h2 class="divTitle">Projects</h2>
 
 
                 <article class="div2Content">
-                <h2 class="divContentTitle">Title & Company</h2>
-                <h3 class="divContentSubTitle">Position / Date - Year</h3>
-                <p class="divContent"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. </p>
+                <h2 class="divContentTitle">Weather App</h2>
+                <h3 class="divContentSubTitle"><a href="https://vincentslee.github.io/weatherapp/">[Link]</a>
+                <a href="https://github.com/vincentslee/weatherapp">[GitHub] </a></h3>
+                <p class="divContent">A demostration of Ajax with a weather API.</p>
                 </article>
 
                 <article class="div2Content">
-                <h2 class="divContentTitle"> Title & Company</h2>
-                <h3 class="divContentSubTitle">Position / Date - Year</h3>
-                <p class="divContent"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. </p>
+                <h2 class="divContentTitle">Spotifinder</h2>
+                <h3 class="divContentSubTitle"><a href="https://vincentslee.github.io/spotifinder/">[Link]</a><a href="https://github.com/vincentslee/spotifinder">[GitHub]</a></h3>
+                <p class="divContent">Spotifinder is a group project which uses YouTube and Emotive APIs to present YouTube videos based on the displayed emotions of an entered phrase. (Requires API keys to use)</p>
+                </article>
+
+                <article class="div2Content">
+                <h2 class="divContentTitle">Happiness Map</h2>
+                <h3 class="divContentSubTitle"><a href="https://github.com/vincentslee/project2">[GitHub]</a></h3>
+                <p class="divContent">This application displays a map of users' happiness based on their data.</p>
                 </article>
             
             </div>

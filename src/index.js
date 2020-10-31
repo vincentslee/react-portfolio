@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Project from './components/Project.js';
+import Project from './components/Project';
+//import Header from "./components/header";
 import reportWebVitals from './reportWebVitals';
+import Wrapper from './components/Wrapper';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Project />
+    <Wrapper>
+      <Project/>
+    </Wrapper>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
